@@ -1,7 +1,7 @@
 {
-  "name": "emrehoumi",
+  "name": "business-card-emrehoumi",
   "version": "0.0.1",
-  "description": "A personal card for El Mehdi REHOUMI",
+  "description": "Business card for El Mehdi REHOUMI",
   "main": "/bin/card.js",
   "bin": {
     "emrehoumi": "./bin/card.js"
@@ -17,12 +17,9 @@
     "lint": "standard"
   },
   "keywords": [
+    "business card",
     "card",
-    "npm",
-    "npm card",
-    "npx",
-    "npx card",
-    "business card"
+    "npm"
   ],
   "author": "El Mehdi REHOUMI",
   "license": "MIT",
