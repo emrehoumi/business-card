@@ -1,0 +1,39 @@
+{
+  "name": "emrehoumi",
+  "version": "0.0.1",
+  "description": "A personal card for El Mehdi REHOUMI",
+  "main": "/bin/card.js",
+  "bin": {
+    "emrehoumi": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrehoumi/BusinessCard.git"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "El Mehdi REHOUMI",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {}
+}
